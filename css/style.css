@@ -1,0 +1,78 @@
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+}
+.nav{position: fixed;
+z-index: 1;
+width: 100%;}
+
+.div__container--presentation{
+    min-height: 100vh;
+    background-image: url(../img/index1.jpg);
+    background-position: center;
+    background-size:cover;
+}
+
+.div__container--presentation h1{
+font-family: 'Great Vibes', cursive;
+font-size: 117px;
+color: rgb(242, 239, 239);
+text-shadow: 0px 10px 12px rgba(38, 38, 38, 0.753);
+}
+
+.div__container--category-pasta{
+    background-image: url(../img/spagetti.png);
+    background-position:bottom;
+    background-size: cover;
+    height: 180vh;
+    
+}
+
+
+
+.div__container--category-pizza{
+    background-image: url(../img/pizza.png.jpg);
+    background-position:start;
+    background-size: cover;
+    height: 200vh;
+}
+.div__container--categoty-menu{height: 100%;}
+.div__container--categoty-menu section{
+    backdrop-filter: blur(17px) saturate(200%);
+    -webkit-backdrop-filter: blur(17px) saturate(200%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+}
+.div__container--category-meat{
+    background-image: url(../img/especialidad.png);
+    background-position:start;
+    background-size:cover;
+    background-position-x: center;
+    height: 300vh;
+}
+
+.div__container--category-drinks{
+    background-image: url(../img/drinks2.png);
+    background-position:left bottom;
+    background-size:cover;
+    height: 250vh;
+    
+
+}
+
+.div__container--all{
+    background-image: url(../img/fondo1.png);
+    background-position:left bottom;
+    background-size:cover;
+    height: 250vh;
+    color: white;
+}
+
+.div__container--category-order button:hover,.div__container--category-order button{
+    color: black;
+}
+
+ tr{
+    height: 50px;
+}
